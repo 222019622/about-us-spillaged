@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Water Management Initiative's mission to create a cleaner, healthier, and sustainable environment through technology and citizen engagement.">
     <title>About Us - Water Management Initiative</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
@@ -15,6 +16,7 @@
             --bg-color: #f5f5f5;
             --button-color: #022541;
             --top-bar-bg-color: #022541;
+            --container-bg: #ffffff; /* Added for consistency */
         }
 
         body {
@@ -29,21 +31,32 @@
             padding: 10px 20px;
             display: flex;
             align-items: center;
+            justify-content: space-between;
         }
 
         .top-bar img {
             height: 50px;
             margin-right: 15px;
-            border-radius: 50%; 
-            object-fit: cover; 
+            border-radius: 50%;
+            object-fit: cover;
         }
- 
 
         .top-bar h1 {
             font-size: 1rem;
             font-weight: normal;
             margin: 0;
             font-family: 'Arial', sans-serif;
+        }
+
+        .top-bar nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .top-bar nav a:hover {
+            text-decoration: underline;
         }
 
         .section-title {
@@ -68,14 +81,6 @@
 
         .social-icon img:hover {
             transform: scale(1.1);
-        }
-
-        .slide {
-            margin-top: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            overflow: hidden;
-            background-color: var(--container-bg);
         }
 
         .slideshow img {
@@ -129,7 +134,7 @@
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            transition: background-color 0.3s ease, transform 0.3 ease;
+            transition: background-color 0.3s ease, transform 0.3s ease;
         }
 
         .app-download a:hover {
@@ -143,21 +148,29 @@
         }
 
         footer {
-            margin-top: 200px;
+            margin-top: 2rem; /* Adjusted for better spacing */
             background-color: #f5f5f5;
             padding: 1rem 0;
             text-align: center;
-            color: var(--container-bg);
+            color: var(--text-color);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 
 <body>
     <header class="top-bar">
-        <img src="images/Logo.jpg" alt="Logo">
-        <div>
-            <h1>Making Pipe Leaks a Thing of the Past</h1>
+        <div class="d-flex align-items-center">
+            <img src="images/Logo.jpg" alt="Spillaged Logo">
+            <div>
+                <h1>Spillaged</h1>
+                <h2 style="font-size: medium;">Making Pipe Leaks a Thing of the Past</h2>
+            </div>
         </div>
+        <nav>
+            <a href="#contact">Contact</a>
+            <a href="privacypolicy.html">Privacy Policy</a>
+        </nav>
     </header>
 
     <div class="container mt-5">
@@ -172,13 +185,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/image.jpg" class="d-block w-100" alt="Our Work Image 1">
+                        <img src="images/image.jpg" class="d-block w-100" alt="Image showcasing our work">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/image1.jpg" class="d-block w-100" alt="Our Work Image 2">
+                        <img src="images/image1.jpg" class="d-block w-100" alt="Image showcasing our work">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/WhatsApp Image 2024-08-14 at 18.24.28_e1832da7.jpg" class="d-block w-100" alt="Our Work Image 3">
+                        <img src="images/WhatsApp Image 2024-08-14 at 18.24.28_e1832da7.jpg" class="d-block w-100" alt="Image showcasing our work">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#workSlideshow" data-bs-slide="prev">
@@ -193,21 +206,21 @@
         </section>
 
         <section class="about-section">
-            <h2 class="section-title">Who Are We?</h2>
+            <h2 class="section-title" style="font-weight: 500;font-size: 20;">Who Are We?</h2>
             <p class="lead text-center">We are an innovative platform committed to creating a cleaner, healthier, and sustainable environment for our communities.</p>
         </section>
 
         <section class="about-section">
-            <h2 class="section-title">What We Do</h2>
+            <h2 class="section-title" style="font-weight: 500;font-size: 20;">What We Do</h2>
             <p class="lead text-center">We act as a bridge between citizens and local authorities by providing a platform that integrates and supports continuous efforts to address water-supply crises and unattended sewage bursts that cause environmental defects in our communities.</p>
         </section>
 
         <section class="about-section">
-            <h2 class="section-title">How We Do It?</h2>
+            <h2 class="section-title" style="font-weight: 500;font-size: 20;">How We Do It</h2>
             <p class="lead text-center">Our mobile application is designed to empower citizens to play an active role in managing essential resources. By quickly and easily reporting water supply pipeline leakages, aging water-supply infrastructure, and sewage bursts, users can help local authorities address these issues promptly.</p>
         </section>
 
-        <h2 class="section-title">Our Goals</h2>
+        <h2 class="section-title" style="font-weight: 500;font-size: 20;">Our Goals</h2>
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="goal-card">
@@ -220,7 +233,7 @@
             </div>
             <div class="col-md-4">
                 <div class="goal-card">
-                    <h4><i class="bi bi-tree-fill goal-icon"></i>Environmental</h4>
+                    <h4><i class="bi bi-tree-fill goal-icon"  style="font-weight: 500;font-size: 20;"></i>Environmental</h4>
                     <ul class="list-unstyled">
                         <li><i class="bi bi-check-circle-fill goal-icon"></i>Timely reporting of sewage bursts prevents contamination of water bodies and soil, protecting ecosystems.</li>
                     </ul>
@@ -228,7 +241,7 @@
             </div>
             <div class="col-md-4">
                 <div class="goal-card">
-                    <h4><i class="bi bi-graph-up goal-icon"></i>Economic</h4>
+                    <h4><i class="bi bi-graph-up goal-icon" style="font-weight: 500;font-size: 20;"></i>Economic</h4>
                     <ul class="list-unstyled">
                         <li><i class="bi bi-check-circle-fill goal-icon"></i>Minimizing water wastage and reducing repair costs.</li>
                         <li><i class="bi bi-check-circle-fill goal-icon"></i>Providing valuable data for urban planning and infrastructure development.</li>
@@ -238,28 +251,28 @@
         </div>
 
         <section class="about-section">
-            <h2 class="section-title">Our Vision</h2>
+            <h2 class="section-title" style="font-weight: 500;font-size: 20;">Our Vision</h2>
             <p class="lead text-center">A developed South Africa where water as a precious resource is managed efficiently and effectively through citizen engagement and technology.</p>
         </section>
 
         <section class="social-section text-center">
-            <h2 class="section-title">Connect With Us</h2>
+            <h2 class="section-title" style="font-weight: 500;font-size: 20;">Connect With Us</h2>
             <div class="d-flex justify-content-center">
                 <div class="social-icon">
-                    <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><img src="images/linkedin.png" alt="LinkedIn"></a>
                 </div>
                 <div class="social-icon">
-                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
                 </div>
                 <div class="social-icon">
-                    <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><img src="images/twitter.png" alt="Twitter"></a>
                 </div>
             </div>
         </section>
 
         <section class="app-download">
             <a href="#" target="_blank">
-                <img src="images/game.png" alt="Play Store">
+                <img src="images/game.png" alt="Download on Play Store">
                 Download our app on Play Store
             </a>
         </section>
