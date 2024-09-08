@@ -1,290 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn about Water Management Initiative's mission to create a cleaner, healthier, and sustainable environment through technology and citizen engagement.">
-    <title>About Us - Water Management Initiative</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #00796b;
-            --secondary-color: #0d2576;
-            --text-color: #020f62;
-            --bg-color: #f5f5f5;
-            --button-color: #022541;
-            --top-bar-bg-color: #022541;
-            --container-bg: #ffffff; /* Added for consistency */
-        }
-
-        body {
-            font-family: 'Grandview', sans-serif;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-        }
-
-        .top-bar {
-            background-color: var(--top-bar-bg-color);
-            color: white;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .top-bar img {
-            height: 50px;
-            margin-right: 15px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-
-        .top-bar h1 {
-            font-size: 1rem;
-            font-weight: normal;
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-        }
-
-        .top-bar nav a {
-            color: white;
-            margin-left: 20px;
-            text-decoration: none;
-            font-size: 1rem;
-        }
-
-        .top-bar nav a:hover {
-            text-decoration: underline;
-        }
-
-        .section-title {
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: var(--primary-color);
-            margin-top: 3rem;
-            margin-bottom: 1.5rem;
-            text-align: center;
-        }
-
-        .goal-icon {
-            color: var(--secondary-color);
-            margin-right: 10px;
-        }
-
-        .social-icon img {
-            width: 40px;
-            margin: 0 10px;
-            transition: transform 0.3s ease;
-        }
-
-        .social-icon img:hover {
-            transform: scale(1.1);
-        }
-
-        .slideshow img {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-            padding-bottom: 20px;
-            border-radius: 10px;
-        }
-
-        .carousel-indicators [data-bs-target] {
-            background-color: var(--primary-color);
-        }
-
-        .about-section {
-            background-color: var(--container-bg);
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 2rem;
-        }
-
-        .goal-card {
-            background-color: var(--container-bg);
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            height: 100%;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .goal-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        .goal-card h4 {
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-        }
-
-        .app-download {
-            margin-top: 2rem;
-            text-align: center;
-        }
-
-        .app-download a {
-            background-color: var(--button-color);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 1.2rem;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .app-download a:hover {
-            background-color: #032341;
-            transform: translateY(-2px);
-        }
-
-        .app-download img {
-            width: 30px;
-            margin-right: 10px;
-        }
-
-        footer {
-            margin-top: 2rem; /* Adjusted for better spacing */
-            background-color: #f5f5f5;
-            padding: 1rem 0;
-            text-align: center;
-            color: var(--text-color);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <title>About Us Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
-
 <body>
-    <header class="top-bar">
-        <div class="d-flex align-items-center">
-            <img src="images/Logo.jpg" alt="Spillaged Logo">
-            <div>
-                <h1>Spillaged</h1>
-                <h2 style="font-size: medium;">Making Pipe Leaks a Thing of the Past</h2>
-            </div>
-        </div>
-        <nav>
-            <a href="#contact">Contact</a>
-            <a href="privacypolicy.html">Privacy Policy</a>
-        </nav>
-    </header>
+    <section class="about-us-section" id="about us">
+        <div class="about-us">
+            <div class="container" id="container1">
+                <div class="row">
+                    <div class="flex">  
+                        <h2>About Us</h2>
+                        <h3>Discover Our Team's Story</h3>
+                        <p>It was a typical afternoon in Johannesburg when a 
+                            University of Johannesburg student, let's call him 
+                            Thabo, was on his way home. As he walked down the 
+                            bustling streets, something caught his eye—a burst
+                            pipe spilling precious water onto the pavement. 
+                            The water gushed out, creating a small river that
+                             wound its way into the street, but to Thabo’s 
+                             surprise, no one seemed to notice. People walked 
+                             by as if it were just another ordinary day.
+                                <br>
+                                <br>
+                            But Thabo knew better. He understood the importance 
+                            of every drop. He thought of the communities 
+                            where water shortages were a daily struggle, 
+                            where every drop was life. As he stood there, 
+                            he wondered why no one was doing anything. 
+                            Why wasn’t there a simple way to report this 
+                            and get it fixed quickly?</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/company/spillaged/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/3kmore?s=21"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/spill_aged?igsh=bGlzNjZlem16N29t
+                            "><i class="fab fa-instagram"></i></a>
+                        </div> 
+                        <!-- Add the ID 'learn-more-btn' -->
+                        <a href="#" class="btn" id="learn-more-btn">Learn More</a>
+                        <!-- Add the ID 'extra-content' -->
+                        <div class="extra-content" id="extra-content" style="display: none;">
+                            <h3>More About Our Journey</h3>
+                            <p>SpillAged isn’t just an app—it’s a movement. A movement that empowers people like Thabo, and like you, to take action and make a difference in your community. Our platform bridges the gap between citizens and local authorities, making it easy for you to report issues like water-supply crises and unattended sewage bursts with just a few taps on your phone.
 
-    <div class="container mt-5">
-        <h1 class="text-center mb-4" style="font-weight: bolder;">About Us</h1>
-
-        <section class="slideshow">
-            <div id="workSlideshow" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#workSlideshow" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#workSlideshow" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#workSlideshow" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/image.jpg" class="d-block w-100" alt="Image showcasing our work">
+                                But we didn’t stop there. We believe in rewarding those who step up. Every time you report an issue through SpillAged, you’re not just helping your community; you’re earning electronic tokens that can be redeemed for vouchers or promotions. It’s our way of saying thank you for caring, thank you for being part of the solution.
+                                
+                                Our mission is simple yet powerful: to create a cleaner, healthier, and more sustainable environment for everyone. <br>
+                                <br>
+                                <br>
+                                Whether it’s preventing water wastage, protecting our ecosystems, or reducing the risks associated with contaminated water, we’re in this together.
+                                
+                                Join us in building a stronger, more resilient community where every voice matters, and every action counts. Because with SpillAged, you’re not just reporting an issue—you’re taking the first step toward a better future.
+                                
+                                Get Involved. Make a Difference. SpillAged.</p>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/image1.jpg" class="d-block w-100" alt="Image showcasing our work">
+                    <div class="flex">
+                        <video controls>
+                            <source src="Video/northcliffvideo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/WhatsApp Image 2024-08-14 at 18.24.28_e1832da7.jpg" class="d-block w-100" alt="Image showcasing our work">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#workSlideshow" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#workSlideshow" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-
-        <section class="about-section">
-            <h2 class="section-title" style="font-weight: 500;font-size: 20;">Who Are We?</h2>
-            <p class="lead text-center">We are an innovative platform committed to creating a cleaner, healthier, and sustainable environment for our communities.</p>
-        </section>
-
-        <section class="about-section">
-            <h2 class="section-title" style="font-weight: 500;font-size: 20;">What We Do</h2>
-            <p class="lead text-center">We act as a bridge between citizens and local authorities by providing a platform that integrates and supports continuous efforts to address water-supply crises and unattended sewage bursts that cause environmental defects in our communities.</p>
-        </section>
-
-        <section class="about-section">
-            <h2 class="section-title" style="font-weight: 500;font-size: 20;">How We Do It</h2>
-            <p class="lead text-center">Our mobile application is designed to empower citizens to play an active role in managing essential resources. By quickly and easily reporting water supply pipeline leakages, aging water-supply infrastructure, and sewage bursts, users can help local authorities address these issues promptly.</p>
-        </section>
-
-        <h2 class="section-title" style="font-weight: 500;font-size: 20;">Our Goals</h2>
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="goal-card">
-                    <h4><i class="bi bi-people-fill goal-icon"></i>Societal</h4>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-check-circle-fill goal-icon"></i>Building a stronger and more resilient community through technology and citizen engagement.</li>
-                        <li><i class="bi bi-check-circle-fill goal-icon"></i>Reducing the risk of waterborne diseases associated with contaminated water.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="goal-card">
-                    <h4><i class="bi bi-tree-fill goal-icon"  style="font-weight: 500;font-size: 20;"></i>Environmental</h4>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-check-circle-fill goal-icon"></i>Timely reporting of sewage bursts prevents contamination of water bodies and soil, protecting ecosystems.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="goal-card">
-                    <h4><i class="bi bi-graph-up goal-icon" style="font-weight: 500;font-size: 20;"></i>Economic</h4>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-check-circle-fill goal-icon"></i>Minimizing water wastage and reducing repair costs.</li>
-                        <li><i class="bi bi-check-circle-fill goal-icon"></i>Providing valuable data for urban planning and infrastructure development.</li>
-                    </ul>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="Our-services" id="services">
 
-        <section class="about-section">
-            <h2 class="section-title" style="font-weight: 500;font-size: 20;">Our Vision</h2>
-            <p class="lead text-center">A developed South Africa where water as a precious resource is managed efficiently and effectively through citizen engagement and technology.</p>
-        </section>
-
-        <section class="social-section text-center">
-            <h2 class="section-title" style="font-weight: 500;font-size: 20;">Connect With Us</h2>
-            <div class="d-flex justify-content-center">
-                <div class="social-icon">
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"></a>
+            <div class="row" id="service-row">
+                <h2 class="section-heading-serv">Our Services</h2>
+            </div>
+            <div class="row" id="service-row">
+                <div class="column" id="serv-column">
+                    <div class="card" id="serv-card">
+                        <div class="icon-wrapper" >
+                            <i class="fa-solid fa-water"></i>
+                        </div>
+                        <h3>Leak & Burst Reporting</h3>
+                        <p>Users can instantly report water pipe leaks or sewage bursts in their area through the app, providing detailed descriptions and location information.</p>
+                    </div>
                 </div>
-                <div class="social-icon">
-                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
+                <div class="column" id="serv-column">
+                    <div class="card" id="serv-card">
+                        <div class="icon-wrapper" >
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <h3>Real-Time Incident Tracking</h3>
+                        <p>Track the status of reported issues in real-time, from initial submission to final resolution, ensuring transparency and keeping users informed about repair progress.</p>
+                    </div>
                 </div>
-                <div class="social-icon">
-                    <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><img src="images/twitter.png" alt="Twitter"></a>
+                <div class="column" id="serv-column">
+                    <div class="card" id="serv-card">
+                        <div class="icon-wrapper" >
+                            <i class="fa-solid fa-walkie-talkie"></i>
+                        </div>
+                        <h3>Direct Communication with Municipal Services</h3>
+                        <p>The app provides a direct communication channel between citizens and the Johannesburg municipality, allowing quicker and more efficient handling of water infrastructure issues.</p>
+                    </div>
+                </div>
+                <div class="column" id="serv-column">
+                    <div class="card" id="serv-card">
+                        <div class="icon-wrapper" >
+                            </i><i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <h3 >Water Conservation Tips and Alerts</h3>
+                        <p>Educational content and push notifications to help users reduce water waste, alongside alerts during water shortages or municipal updates.</p>
+                    </div>
+                </div>
+                <div class="column" id="serv-column">
+                    <div class="card" id="serv-card">
+                        <div class="icon-wrapper" >
+                            <i class="fa-solid fa-laptop-file"></i>
+                        </div>
+                        <h3>Incident History</h3>
+                        <p>Access a log of previously reported incidents in the user's area, helping citizens stay informed about recurring problems and overall maintenance.</p>
+                    </div>
+                </div>
+                <div class="column" id="serv-column">
+                    <div class="card" id="serv-card">
+                        <div class="icon-wrapper" >
+                            <i class="fa-solid fa-right-left"></i>
+                        </div>
+                        <h3>Emergency Response Coordination</h3>
+                        <p>In case of severe leaks or bursts, the app offers contact information and procedures for emergency water shut-offs or quick municipal intervention.</p>
+                    </div>
                 </div>
             </div>
-        </section>
 
-        <section class="app-download">
-            <a href="#" target="_blank">
-                <img src="images/game.png" alt="Download on Play Store">
-                Download our app on Play Store
-            </a>
-        </section>
-    </div>
 
-    <footer>
-        <p>&copy; 2024 Water Management Initiative by SPILLAGED. All rights reserved.</p>
-    </footer>
+    </section>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+    <section class="Team-members" id="team-members">
+       
+        <div class="container">
+           <h2 class="team-heading">Spillaged Team</h2>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/Rego.jpg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>RC Mofomme<br><span>Android Devloper</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/thato.jpg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>TS Mathetsa<br><span>Android Devloper</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/tavie.jpg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>TJ Mmekwa<br><span>Android Devloper</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/ndamu.jpg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>NC Tshipapa<br><span>Android Devloper</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/uhone.jpg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>UH Mamaila<br><span>Web Developer</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/more3k.jpg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>KE Nakana<br><span>Creative designer</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section class="Support" id="mentors">
+        <div class="wrapper">
+            <div class="mentor-section">
+                <div class="title">
+                    <p>Meet Our Mentors From PayCorp Group</p>
+                </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                <div class="row">
+                    <div class="mentors-member-area">
+                        <div class="mentors-members">
+                            <div class="image">
+                                <img src="images/gavin.jpn.jpeg" alt="">
+                            </div>
+
+                            <div class="mentor-content">
+                                <div class="mentor-details">
+                                    <h3>Gavin Reubenson</h3>
+                                    <p> Mentor Paycorp Group CIO</p>
+                                </div>
+                                <p class="inner-text">Guided by our mentors' expertise, we chose Flutter for Spillaged, shaping it into the efficient, user-focused app it is today</p>
+                                <div class="social-icons">
+                                    <ul>
+                                        <li><a href="https://www.linkedin.com/in/gavin-reubenson-a277527/"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mentors-member-area">
+                        <div class="mentors-members">
+                            <div class="image">
+                                <img src="images/shaun_LE_auto_x2_colored_toned.jpg" alt="">
+                            </div>
+
+                            <div class="mentor-content">
+                                <div class="mentor-details">
+                                    <h3>Shaun Danielz</h3>
+                                    <p> Mentor Pycorp group Software Development Manager</p>
+                                </div>
+                                <p class="inner-text">Guided by our mentors' expertise, we chose Flutter for Spillaged, shaping it into the efficient, user-focused app it is today</p>
+                                <div class="social-icons">
+                                    <ul>
+                                        <li><a href="https://www.linkedin.com/in/shaun-danielz-891a7b13/"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="footer-section">
+                <footer>
+                    <div class="footer-container">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/spillaged/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://x.com/3kmore?s=21"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/spill_aged?igsh=bGlzNjZlem16N29t
+                            "><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        </div>
+                        <div class="footer-nav">
+                            <ul>
+                                <li><a href="#about us">About-us</a></li>
+                                <li><a href="#services">Our-Services</a></li>
+                                <li><a href="#team-members">Team</a></li>
+                                <li><a href="#mentors">Mentors</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="privacypolicy.html">Privacy-Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-footer">
+                            <p>Copyright &copy;2024 SpillAged. All right reserved</p>
+                        </div>
+                    </div>
+
+                </footer>
+                </section>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>     
 </body>
-
 </html>
